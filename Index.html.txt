@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BlendX | Smart Nutrition Automation</title>
+
+  <!-- SEO -->
+  <meta name="description" content="BlendX provides smart automated nutrition vending solutions including protein, supplements and functional beverages." />
+  <meta name="keywords" content="BlendX, vending machine, protein vending, nutrition automation, smart vending" />
+  <meta name="author" content="BlendX" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="wrap">
+  <nav class="nav">
+    <div class="logo">BlendX</div>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Smart Nutrition. Automated.</h1>
+    <p>
+      BlendX is a next-generation automated vending platform delivering
+      protein, supplements, and functional beverages with precision and speed.
+    </p>
+
+    <div class="cta">
+      <a class="btn" href="#contact">Contact Us</a>
+      <a class="btn ghost" href="#solutions">Our Solutions</a>
+    </div>
+  </section>
+</header>
+
+<main class="wrap">
+
+  <section id="about" class="card">
+    <h2>About BlendX</h2>
+    <p>
+      BlendX is built to redefine convenience in nutrition delivery.
+      Our smart vending solutions are designed for gyms, campuses,
+      workplaces, and high-footfall environments.
+    </p>
+  </section>
+
+  <section id="solutions" class="card">
+    <h2>Our Solutions</h2>
+    <ul>
+      <li>Protein & supplement vending automation</li>
+      <li>Smart inventory & cloud monitoring</li>
+      <li>Contactless & QR-based payments</li>
+      <li>Scalable institutional deployment</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:info@blendxauto.in">info@blendxauto.in</a></p>
+    <p>WhatsApp: <a href="https://wa.me/91XXXXXXXXXX" target="_blank">Chat on WhatsApp</a></p>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> BlendX. All rights reserved.</p>
+  </footer>
+
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
