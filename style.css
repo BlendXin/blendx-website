@@ -114,3 +114,11 @@ a {
   font-size: 16px;
   opacity: 0.95;
 }
+.logo-img {
+  height: 42px;      /* adjust if needed */
+  width: auto;
+  display: block;
+}
+.nav {
+  align-items: center;
+}
