@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout | BLENDX Automations</title>
+
+  <!-- Basic SEO for verification -->
+  <meta name="description" content="Checkout page for BLENDX Automations machine booking. Refundable booking advance." />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="wrap">
+    <nav class="nav">
+      <a href="index.html">
+        <img src="images/logo.png" alt="BlendX Automations Logo" class="logo-img">
+      </a>
+    </nav>
+
+    <section class="hero" style="padding:40px 0 20px;">
+      <h1>Checkout</h1>
+      <p>Machine Booking – Refundable Advance</p>
+    </section>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card">
+
+    <h2>Machine Booking (₹1,000 – Refundable)</h2>
+
+    <p>
+      Pay a <strong>₹1,000 refundable booking amount</strong> to reserve a BLENDX vending machine.
+      This amount will be <strong>fully refunded after installation and signing of the MoU</strong>.
+    </p>
+
+    <form onsubmit="return goToPaytm();">
+
+      <label class="subhead">Full Name</label>
+      <input class="input" required placeholder="Your full name">
+
+      <label class="subhead">Mobile Number</label>
+      <input class="input" required placeholder="10-digit mobile number">
+
+      <label class="subhead">Location / Institution</label>
+      <input class="input" required placeholder="Gym / College / Institution name">
+
+      <div class="cta" style="margin-top:20px;">
+        <button type="submit" class="btn">
+          Pay ₹1,000 via Paytm
+        </button>
+      </div>
+
+    </form>
+
+    <p style="margin-top:16px;opacity:0.85;line-height:1.6;">
+      <strong>Refund Policy:</strong><br>
+      The booking amount of ₹1,000 is refundable after installation and signing of the MoU.
+      Refund requests must be sent to
+      <a href="mailto:blendx25@gmail.com">blendx25@gmail.com</a>
+      with the Paytm transaction reference.
+      Approved refunds will be processed within 5–7 working days.
+    </p>
+
+  </section>
+</main>
+
+<script>
+  function goToPaytm() {
+    // 👉 REPLACE THE LINK BELOW WITH YOUR PAYTM BUSINESS PAYMENT LINK
+    window.location.href = "PASTE_YOUR_PAYTM_PAYMENT_LINK_HERE";
+    return false;
+  }
+</script>
+
+</body>
+</html>
